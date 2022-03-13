@@ -1,0 +1,32 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{title}
+        link(rel="stylesheet", href="css/style.css")
+    body 
+
+        main.main#main 
+            .div-info 
+                button#btn-info info
+                .info 
+                    p.p-info This is a common game. I wanted to make a kind of IA with JS. I thought to do it like the IBM chess IA. But I wanted thatit was more random. Then it was made, there's no movements predefined, no plays, it's only a kind of IA responding random to your movements.
+
+            .button-div 
+                button#change-player Change Player
+                button#reboot(type="reset") Reboot
+            section.section#section(aria-label="Game of three on a ray")
+                .capa
+                .block
+                    .square(tab-index="0") 
+                    .square(tab-index="0") 
+                    .square(tab-index="0")
+                    .square(tab-index="0")
+                    .square(tab-index="0")
+                    .square(tab-index="0")
+                    .square(tab-index="0")
+                    .square(tab-index="0")
+                    .square(tab-index="0")
+
+script(src="js/index.js") 
